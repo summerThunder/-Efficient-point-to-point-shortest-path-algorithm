@@ -24,8 +24,7 @@ def sink(array,index,stid):
             temp=array[i]
             array[i]=array[min]
             array[min]=temp
-            print(array[min])
-            print(index)
+
             change_dict(index,array[i],array[min])
             i =min
         else:
